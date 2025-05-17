@@ -3,8 +3,6 @@ const palindromes = function (str) {
     let count = 0;
     for (let i = newStr.length - 1; i >= 0; i--) {
         if (newStr[count] !== newStr[i]) return false;
-        console.log("count: " + newStr[count]);
-        console.log("i: " + newStr[i]);
         count++;
     }
 
